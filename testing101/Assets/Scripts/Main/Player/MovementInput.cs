@@ -64,18 +64,7 @@ public class MovementInput : MonoBehaviour
     private void Update()
     {
         InputMagnitude();
-        // _isGrounded = characterController.isGrounded;
-        // if (_isGrounded)
-        // {
-        //     _verticalVelocity -= 0;
-        // }
-        // else
-        // {
-        //     _verticalVelocity -= 2;
-        // }
-        //
-        // _moveVector = new Vector3(0, _verticalVelocity, 0);
-        // characterController.Move(_moveVector);
+       
     }
 
     private void FixedUpdate()
